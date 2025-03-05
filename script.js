@@ -15,6 +15,7 @@ function addTask() {
     }
 }
 
+/* exported deleteTask */
 function deleteTask(button) {
     const li = button.parentElement;
     const task = li.textContent.replace('Delete', '').trim();
