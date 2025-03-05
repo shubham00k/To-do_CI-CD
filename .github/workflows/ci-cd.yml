@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: write  # Allows writing to the repo (e.g., pushing to gh-pages)
+  pages: write     # Allows GitHub Pages deployment
+  id-token: write  # Optional, for secure deployment
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
