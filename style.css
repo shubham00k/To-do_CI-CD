@@ -15,4 +15,12 @@ ul {
 li {
     padding: 5px;
     border-bottom: 1px solid #ddd;
+} 
+button {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
